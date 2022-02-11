@@ -10,3 +10,4 @@ ChucksWebApps Revision of HTML, CSS and Javascript
 "bobs and chucks Demo files seperated"
 "2:15:48 continuing with the third dimension"
 "End CSS 2:20:28"
+"Install p h p via Tech Web Docs, Set up some trial p h p files and... they run! Continue from 2:41:00 ish!"
