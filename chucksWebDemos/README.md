@@ -11,3 +11,4 @@ ChucksWebApps Revision of HTML, CSS and Javascript
 "2:15:48 continuing with the third dimension"
 "End CSS 2:20:28"
 "Install p h p via Tech Web Docs, Set up some trial p h p files and... they run! Continue from 2:41:00 ish!"
+"2:51:25 and ready to start tutorial 2:51:25"
