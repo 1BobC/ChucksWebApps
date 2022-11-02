@@ -20,3 +20,4 @@ Now watch from 3:34:11"
 
 "Arrays to 3:43:34 indices, key/ value, dumping See examples in express"
 "*Now worked out the display in html* it's for debugging and prints the array out"
+"to 4:02:21 Array functions"
