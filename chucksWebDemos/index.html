@@ -114,22 +114,22 @@
     <p>Advice is to use var-dump - see session on Arrays</p>
 
     <h4>3:27:40 Control Structures</h4>
-    <p>Mmm... single = is assignment, double == is the question (two == signs required since </p>
-    <p>a single = would only be an assignment but not be a syntax error !)</p>
-    <p>Style preference - all about spacing your code out, or not so much. See Kernigen & Ritchi</p>
-    <p>Multiway - executes a true statement but does not go back up for more.</p> 
-    <p>Catch phrase is - else, if. Also, better to use {} with statements for readability.</p>
-    <p>While Loop - Important! - hand construct the iteration variable to exit and avoid 'infinity loop' </p>
-    <p>One-trip or Do While loop. Rarely used.</p>
-    <p>See for loop exercise in express file</p>
-    <p>Breaking out of a loop - add 'break' to loop 'if' test to go to statement immediately followin the loop.</p>
-    <p>Finishing exits an iteration (not the loop) see 3:40:03 for explanetary example </p>
-    <p>So... that is a summary of the core PHP language</p>
+    <p>Mmm... single = is assignment, double == is the question (two == signs required since 
+    a single = would only be an assignment but not be a syntax error !)
+    Style preference - all about spacing your code out, or not so much. See Kernigen & Ritchi
+    Multiway - executes a true statement but does not go back up for more.
+    Catch phrase is - else, if. Also, better to use {} with statements for readability.
+    While Loop - Important! - hand construct the iteration variable to exit and avoid 'infinity loop' 
+    One-trip or Do While loop. Rarely used.
+    See for loop exercise in express file
+    Breaking out of a loop - add 'break' to loop 'if' test to go to statement immediately followin the loop.
+    Finishing exits an iteration (not the loop) see 3:40:03 for explanetary example 
+   So... that is a summary of the core PHP language</p>
     
     <h4>Now for Arrays starting 3:41:11</h4>
-    <p>based on key value pairs, variables can take on any type</p>
-    <p>Integer indices, key / value, dumping an array eg in html requires pre tags for readability. </p>
-    <p>*Not worked out the display in html*</p>
+    <p>based on key value pairs, variables can take on any type
+    <p>Integer indices, key / value, dumping an array eg in html requires pre tags for readability. 
+    <p>*Not worked out the display in html*
     <p>Ah... it's print_r plus pre-tags for debugging and prints the array out as follows...</p>
     <php>
         <!-- <?php -->
@@ -148,15 +148,15 @@
     <!-- ?> -->
     </php>
     <p>reached 3:43:34</p>
-    <p>Also var_dump but more detailed than print_r Not shown here but it will print out a false boolean</p>
-    <p>YOu can build up a PHP array and append values</p>
-    <p>A little playing with print_r to 3:46:37</p>
-    <p>Looping through an array - a determinate loop 'foreach' goes throug all key/value pairs.See example</p>
-    <p>to 3:38:46 (no it is 3:48:46!) - part way through loops</p>
-    <p>Counted Loop (works for compacted loops)</p>
-    <p>Arrays of arrays - two dimensional to 3:50:03</p>
-    <p>Array functions - many of them since way back php not ooprogram! use function_ start3:51:30</p>
-    <p>8 commong array functions - 3 boolean. They are some of the unique features of php! to 4:02:21</p>
+    Also var_dump but more detailed than print_r Not shown here but it will print out a false boolean
+    YOu can build up a PHP array and append values
+    A little playing with print_r to 3:46:37
+    Looping through an array - a determinate loop 'foreach' goes throug all key/value pairs.See example
+    to 3:38:46 (no it is 3:48:46!) - part way through loops
+    Counted Loop (works for compacted loops)
+    Arrays of arrays - two dimensional to 3:50:03
+    Array functions - many of them since way back php not ooprogram! use function_ start3:51:30
+    8 commong array functions - 3 boolean. They are some of the unique features of php! to 4:02:21</p>
     <h4>From 4:02:21 Array functions</h4>
     <p>php has built-in functions and we build our own when needed</p>
     <p>Ease into writing your own. If you're getting too repetetive then break it into chunks</p>
@@ -180,7 +180,45 @@
     <h4>Form  processing in php</h4>
     <p>make interacting with http and html as easy as posssible</p>
     <p>php processes the incoming httpRequest based on the protocol specs and drops the data into various <strong>Super Global Variables</strong> </p>
+    <p>Have a go at the 'Guessing game' form</p>
+    <h4>Rules of the POST, GET choice</h4>
+    <ul>
+        <li><p>POST is used when data is being created or modified</p></li>
+        <li><p>GET is used when you are reading or searching things</p></li>
+        <li><p>Web search spiders are generally shown on GET urls but not shown on POST urls</p></li>
+        <li><p>GET urls should be idempotent, the same url should give the same thing each time you access it.</p></li>
+        <li><p>GET has an upper limit of the number of bytes of parameters and values - about 2K</p></li>
+    </ul>
+    <h4>FORM INPUT TYPES 4:36:30 to 4:49:40</h4>
+    <p>http://www.wa4e.com/code/forms/more.php</p>
+    <p>Yes, this file more php is required to run the 'many fields' example Geddit?</p>
+    <p>-text -password -radio button -check box -select/dropdown -textarea</p>
+    <p>AND multiple - but not recommended!</p>
+    <p>Oh, and submit button.</p>
+    <p>THEN input types for HTML5 - this is a six part example in a one-er</p>
+    <p>It covers color, date, email, number, url and old fashioned.
+        They show HTML5 input types validate the date or (oldfashioned) just input as text!</p>
+    <p>Examples? go for it!</p>
+    <h4>04:49:52 Continue with Data Security, Integrity, Validation</h4>
+    <p>Checking that you're getting good data</p>
+    <p>Persisting form data - When we submit data and there is an error, we expect that the data
+        will remain in the form when the page is redisplayed</p>
+    <p>The application needs to make sure to put the previous values back in the form. (which means? - Ahhh...)</p>
+    <p>Yes! it does, try it!</p>
+    <p>NB Data Persistance and echo plus HTML characters DO NOT mix</p>
+    <p>Use html injection - as per the example!</p>
+    <h4>Incoming data validation: Orl krect before proceeding</h4>
+    <p>NonEmpty strlen($var)>0, ANumber is_numeric($var), emailAddress strpos($var,'@')>0, -</p>
+    <p>04:58:00 to 05:00:00 Go over again! Before going on to Convention: Model View Controller (MVC)</p>
+    <p>Whoa! 04:59:11 Data verification for a guessing game not finished (does'nt work!)</p> 
+    <h4>Whoa again! you have been trying to make isolated examples work, Dr C will put it together, 
+        so watch and wait and learn!!!</h4>
+    <p>Orl Krect again and ready to continue with Model View Controller (MVC) from 05:00:43
+        in cd bobsWebDemos
+    </p> 
     
+
+
     
     
     
