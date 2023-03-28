@@ -1,0 +1,19 @@
+{
+    "php.validate.executablePath": "/usr/bin/php",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "bobsql1",
+            "database": "Leute1",
+            "username": "root",
+            "password": "",
+            "connectionTimeout": 30
+        }
+    ]
+}
