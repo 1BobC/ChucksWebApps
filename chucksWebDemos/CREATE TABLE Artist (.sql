@@ -1,0 +1,4 @@
+CREATE TABLE Artist (
+    artist_id INTEGER NOT NULL AUTO_INCREMENT KEY,
+    name VARCHAR(255)
+)   ENGINE = InnoDB;
