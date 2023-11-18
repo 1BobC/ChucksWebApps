@@ -18,7 +18,8 @@ ChucksWebApps Revision of HTML, CSS and Javascript
 "NB see text in bobs readme 3:00:00 to 3:34:11 for continuity of video - 
 Now watch from 3:34:11"
 
-"Have watched to 07.20 and am constructing Chuck's music db"
+
+
 
 
 "Arrays to 3:43:34 indices, key/ value, dumping See examples in express"
@@ -30,3 +31,5 @@ Now watch from 3:34:11"
 "have transferred 'first php attempt from this index file to first express file in Bobs Demos"
 "investigating ssh key problem by commit and push from this repo"
 "Creating tables for db Estonian Jazz Compilation EJC on libre"
+
+"this was inserted in row 21, it should be here! Have watched to 07.20 and am constructing Chuck's music db and have created table musicdb, tables Album, Artist, Genre and Track - Yeah!"

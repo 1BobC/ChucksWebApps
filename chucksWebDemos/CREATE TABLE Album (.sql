@@ -1,0 +1,11 @@
+CREATE TABLE Album (
+    album_id INTEGER NOT NULL AUTO_INCREMENT KEY,
+    title VARCHAR(255),
+    artist_id INTEGER,
+
+    INDEX USING BTREE (title),
+
+    CONSTRAINT FOREIGN KEY (artist_id)
+    REFERENCES Artist(artist_id)
+    ON DELETE CASCADE ON UPDATE CASCADE
+)   ENGINE = InnoDB;
