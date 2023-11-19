@@ -1,0 +1,1 @@
+select Album.title,Artist.name from Album join Artist on Album.artist_id = Artist.artist_id;
