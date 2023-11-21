@@ -34,3 +34,4 @@ Now watch from 3:34:11"
 
 "this was inserted in row 21, it should be here! Have watched to 07.20 and am constructing Chuck's music db and have created table musicdb, tables Album, Artist, Genre and Track - Yeah!"
 "Have populated tables and made three selections, all worked ok, will probably do again to uunderstand the process - yeah!"
+"
